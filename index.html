@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project Assignments</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0d1117; 
+        }
+        .gradient-background {
+            background-image: radial-gradient(at 0% 0%, #1e40af22, transparent 50%),
+                              radial-gradient(at 100% 100%, #be185d22, transparent 50%);
+        }
+        .pro-button {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            background-color: #1f2937; 
+            border: 1px solid rgba(107, 114, 128, 0.2); 
+        }
+        .pro-button:hover {
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 0 15px rgba(59, 130, 246, 0.5);
+            background-color: #374151; 
+            border-color: #3b82f6; 
+        }
+    </style>
+</head>
+<body class="gradient-background">
+
+    <div class="w-full max-w-5xl p-6 md:p-12 lg:p-16">
+        
+        <header class="text-center mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight leading-snug">
+                My Project Links
+            </h1>
+            <p class="text-sm mt-3 text-blue-400 font-medium">
+                Project links reflect current work progress and are updated regularly.
+            </p>
+            <p class="text-lg mt-1 text-slate-400 font-light">
+                Click any assignment below to view the project.
+            </p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            <a href="https://gilded-taiyaki-e002b5.netlify.app/" target="_blank" class="pro-button block p-6 rounded-xl text-white hover:text-blue-300">
+                <div class="flex flex-col items-start space-y-3">
+                    <span class="text-4xl">1️⃣</span>
+                    <h2 class="text-xl font-semibold">Webpage layout exercise</h2>
+                    <p class="text-sm text-slate-400">
+                        25 Oct 2025 <br>
+                        A quick exercise on creating most used website layout
+                        
+                    </p>
+                    <span class="text-blue-400 font-medium text-sm mt-2">Open Project Link →</span>
+                </div>
+            </a>
+
+            <a href="https://himanshna.github.io/Mexant/" target="_blank" class="pro-button block p-6 rounded-xl text-white hover:text-blue-300">
+                <div class="flex flex-col items-start space-y-3">
+                    <span class="text-4xl">2️⃣</span>
+                    <h2 class="text-xl font-semibold">Mexant</h2>
+                    <p class="text-sm text-slate-400">
+                        28 Oct 2025 <br>
+                        simple webpage design  
+                    </p>
+                    <span class="text-blue-400 font-medium text-sm mt-2">Open Project Link →</span>
+                </div>
+            </a>
+
+            <a href="https://himanshna.github.io/flipkart/" target="_blank" class="pro-button block p-6 rounded-xl text-white hover:text-blue-300">
+                <div class="flex flex-col items-start space-y-3">
+                    <span class="text-4xl">3️⃣</span>
+                    <h2 class="text-xl font-semibold">Flipkart</h2>
+                    <p class="text-sm text-slate-400">
+                        30 Oct 2025 <br>
+                       A simple flipkart webpage clone.
+                         
+                    </p>
+                    <span class="text-blue-400 font-medium text-sm mt-2">Open Project Link →</span>
+                </div>
+            </a>
+
+            <a href="https://himanshna.github.io/animiationasgn/" target="_blank" class="pro-button block p-6 rounded-xl text-white hover:text-blue-300">
+                <div class="flex flex-col items-start space-y-3">
+                    <span class="text-4xl">4️⃣</span>
+                    <h2 class="text-xl font-semibold">slide Animation</h2>
+                    <p class="text-sm text-slate-400">
+                        01 Nov 2025 <br>
+                        Animation scrolling images
+                        
+                        
+                    </p>
+                    <span class="text-blue-400 font-medium text-sm mt-2">Open Project Link →</span>
+                </div>
+            </a>
+
+        </div>
+        
+        <footer class="mt-16 text-center text-slate-600 text-xs">
+            Ready for more assignments...eager to learn more...
+        </footer>
+
+    </div>
+
+</body>
+</html>
